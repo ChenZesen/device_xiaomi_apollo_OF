@@ -76,10 +76,10 @@ void vendor_load_properties() {
     std::string variant;
     variant = GetProperty("ro.product.vendor.name", "");
 
-    if (variant == "picasso") {
-            model_property_override("picasso", "Redmi K30 5G");
-        } else if (variant == "picasso_48m") {
-            model_property_override("picasso_48m", "Redmi K30i 5G");
+    if (variant == "apollo") {
+            model_property_override("apollo", "Redmi K30S Ultra");
+        } else if (variant == "apollon") {
+            model_property_override("apollon", "Xiaomi Mi10T");
     	  }
 }
 
