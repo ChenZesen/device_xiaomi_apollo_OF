@@ -17,21 +17,21 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/picasso
-$(call inherit-product, device/xiaomi/picasso/device.mk)
+DEVICE_PATH := device/xiaomi/apollo
+$(call inherit-product, device/xiaomi/apollo/device.mk)
 
 # Inherit some common OrangeFox stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := picasso
-PRODUCT_NAME := omni_picasso
+PRODUCT_DEVICE := apollo
+PRODUCT_NAME := omni_apollo
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi K30 5G
+PRODUCT_MODEL := Redmi K30S Ultra
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_RELEASE_NAME := Redmi K30 5G
+PRODUCT_RELEASE_NAME := Redmi K30S Ultra
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="Redmi/picasso/picasso:10/QKQ1.191117.002/20.1.13:user/release-keys" \
-    PRIVATE_BUILD_DESC="picasso-user 10 QKQ1.191117.002 20.1.13 release-keys"
+    BUILD_FINGERPRINT="Redmi/apollo/apollo:11/RKQ1.200826.002/V12.5.3.0.RJDCNXM:user/release-keys" \
+    PRIVATE_BUILD_DESC="apollo-user 11 RKQ1.200826.002 V12.5.3.0.RJDCNXM release-keys"
