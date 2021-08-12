@@ -1,5 +1,5 @@
-ro.product.board=sm7250
-ro.board.platform=sm7250
+ro.product.board=sm8250
+ro.board.platform=sm8250
 sys.usb.controller=a600000.dwc3
 sys.usb.rndis.func.name=rndis_bam
 sys.usb.rmnet.func.name=rmnet_bam
