@@ -17,9 +17,9 @@
 # limitations under the License.
 #
 
-PRODUCT_RELEASE_NAME := picasso
+PRODUCT_RELEASE_NAME := apollo
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-DEVICE_PATH := device/xiaomi/picasso
+DEVICE_PATH := device/xiaomi/apollo
 
 # Apex libraries
 PRODUCT_HOST_PACKAGES += \
