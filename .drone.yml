@@ -27,4 +27,4 @@ steps:
     commands:
 
       - apt update && apt install tmate -y
-      - tmate -F
+      - bash build.sh
